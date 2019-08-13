@@ -1,6 +1,8 @@
 package dao.model
 
 import dao.model.PersonTable.Person
+import io.circe.{Decoder, Encoder}
+import io.circe.generic.semiauto.{deriveDecoder, deriveEncoder}
 import slick.jdbc.PostgresProfile.api._
 
 class PersonTable(tag: Tag) extends Table[Person](tag, "t_person"){
@@ -20,4 +22,7 @@ class PersonTable(tag: Tag) extends Table[Person](tag, "t_person"){
 
 object PersonTable {
   case class Person(id: Long,  firstName: String, secondName: String, age: String)
+
+  implicit val personDecoder: Decoder[Person] = deriveDecoder
+  implicit val personEncoder: Encoder[Person] = deriveEncoder
 }

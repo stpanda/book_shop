@@ -5,10 +5,13 @@ import akka.http.scaladsl.server.Route
 import akka.http.scaladsl.server.Directives.{complete, _}
 import dao.model.BookTable.Book
 import service.BookService
+import converter.Converter
 
 import scala.util.{Failure, Success}
 
 object BookController {
+  dec: Converter =>
+
   var routes: Route = {
     pathPrefix("book_service") {
       post {

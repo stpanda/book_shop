@@ -3,12 +3,14 @@ package controller
 import akka.http.scaladsl.model.{ContentTypes, HttpEntity, StatusCodes}
 import akka.http.scaladsl.server.Route
 import akka.http.scaladsl.server.Directives._
+import converter.Converter
 import dao.model.PersonTable.Person
 import service.PersonService
 
 import scala.util.{Failure, Success}
 
 object PersonController {
+  dec: Converter =>
 
   var routes: Route = {
     pathPrefix("person_service") {
