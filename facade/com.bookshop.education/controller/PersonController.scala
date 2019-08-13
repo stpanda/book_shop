@@ -6,6 +6,8 @@ import akka.http.scaladsl.server.Directives._
 import dao.model.PersonTable.Person
 import service.PersonService
 
+import scala.util.{Failure, Success}
+
 object PersonController {
 
   var routes: Route = {
@@ -13,35 +15,36 @@ object PersonController {
       post {
         entity(as[Person]) { person =>
           val res = PersonService.add(person)
-          res match {
-            case res => complete(StatusCodes.OK)
-            case _ => complete(StatusCodes.BadRequest)
+          onComplete(res) {
+            case Success(_) => complete(StatusCodes.OK)
+            case Failure(_) => complete(StatusCodes.BadRequest)
           }
         }
       }
       path(LongNumber) { id =>
         get {
           val res = PersonService.findOne(id)
-          res match {
-            case Some(p) => complete(HttpEntity(ContentTypes.`text/html(UTF-8)`, p.toString))
-            case None => complete(StatusCodes.BadRequest)
+          onComplete(res) {
+            case Success(_) => complete(HttpEntity(ContentTypes.`text/html(UTF-8)`, res.toString))
+            case Failure(_) => complete(StatusCodes.BadRequest)
           }
         }
       }
       path(LongNumber) { id =>
       delete {
-        PersonService.deleteById(id) match {
-          case res => complete(StatusCodes.OK)
-          case _ => complete(StatusCodes.BadRequest)
+        val res = PersonService.deleteById(id)
+        onComplete(res) {
+        case Success(_) => complete(StatusCodes.OK)
+        case Failure(_) => complete(StatusCodes.BadRequest)
         }
       }
       }
       put {
         entity(as[Person]) { person =>
           val res = PersonService.update(person)
-          res match {
-            case res => complete(StatusCodes.OK)
-            case _ => complete(StatusCodes.BadRequest)
+          onComplete(res) {
+            case Success(_) => complete(StatusCodes.OK)
+            case Failure(_) => complete(StatusCodes.BadRequest)
           }
         }
       }

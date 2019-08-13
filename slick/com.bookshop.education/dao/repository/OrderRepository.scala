@@ -14,8 +14,8 @@ object OrderRepository extends TableQuery(new OrderTable(_)) {
     db.run(this.result)
   }
 
-  def drop(implicit db: Database): Future[Int] = {
-    db.run(this.delete)
+  def drop(id: Long)(implicit db: Database): Future[Int] = {
+    db.run(this.filter(_.orderId === id).delete)
   }
 
   def findByPersonId(id: Long)
@@ -31,6 +31,16 @@ object OrderRepository extends TableQuery(new OrderTable(_)) {
   def deleteChain(personId : Long, bookId : Long)
                  (implicit db: Database): Future[Int] = {
     db.run(this.filter(data => data.personId === personId && data.bookId === bookId).delete)
+  }
+
+  def addOrder(order: Order)
+              (implicit db: Database): Future[Int] = {
+    db.run(this += order)
+  }
+
+  def updateOrder(order: Order)
+                 (implicit db: Database): Future[Int] = {
+    db.run(this.filter(_.orderId === order.orderId).update(order))
   }
 
 }

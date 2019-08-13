@@ -2,6 +2,8 @@ package service
 
 import dao.model.BookTable.Book
 import dao.repository.BookRepository
+import dao.settings.Settings._
+
 
 import scala.concurrent.Future
 
@@ -13,8 +15,7 @@ object BookService {
 
   def add(b: Book): Future[Int] = BookRepository.create(b)
 
-  def update(b: Book): Int = BookRepository.updateById(b).transform()
+  def update(b: Book): Future[Int] = BookRepository.updateById(b)
 
-  def findOne(id: Long): Option[Book] = BookRepository.findById(id).transform()
-
+  def findOne(id: Long): Future[Option[Book]] = BookRepository.findById(id)
 }

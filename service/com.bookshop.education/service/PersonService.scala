@@ -2,19 +2,20 @@ package service
 
 import dao.model.PersonTable.Person
 import dao.repository.PersonRepository
+import dao.settings.Settings._
 
 import scala.concurrent.Future
 
 object PersonService {
 
-  def all: Seq[Person] = PersonRepository.all.transform()
+  def all: Future[Seq[Person]] = PersonRepository.all
 
-  def deleteById(id: Long): Int = PersonRepository.deleteById(id).transform()
+  def deleteById(id: Long): Future[Int] = PersonRepository.deleteById(id)
 
-  def add(b: Person): Int = PersonRepository.create(b).transform()
+  def add(b: Person): Future[Int] = PersonRepository.create(b)
 
-  def update(b: Person): Int = PersonRepository.updateById(b).transform()
+  def update(b: Person): Future[Int] = PersonRepository.updateById(b)
 
-  def findOne(id: Long): Option[Person] = PersonRepository.findById(id).transform()
+  def findOne(id: Long): Future[Option[Person]] = PersonRepository.findById(id)
 
 }
