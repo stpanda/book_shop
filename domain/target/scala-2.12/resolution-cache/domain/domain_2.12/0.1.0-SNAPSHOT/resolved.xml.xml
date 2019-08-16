@@ -4,7 +4,7 @@
 		module="domain_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190806113449"
+		publication="20190815155433"
 	>
 		<description>
 		domain
@@ -32,5 +32,7 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.7" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.25" conf="compile->default(compile)"/>
+		<dependency org="com.github.pureconfig" name="pureconfig_2.12" rev="0.10.1" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

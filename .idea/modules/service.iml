@@ -5,14 +5,13 @@
     <output-test url="file://$MODULE_DIR$/../../service/target/scala-2.12/test-classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../service">
+      <sourceFolder url="file://$MODULE_DIR$/../../service/src/main/scala" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../service/target/scala-2.12/src_managed/main" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../service/target/scala-2.12/src_managed/test" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../service/com.bookshop.education" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../service/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="domain" exported="" />
     <orderEntry type="library" name="sbt: org.scala-sbt:zinc-classpath_2.12:1.2.5:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-sbt:util-interface:1.2.2:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-sbt:launcher-interface:1.0.0:jar" level="project" />
@@ -38,7 +37,6 @@
     <orderEntry type="library" name="sbt: io.circe:circe-jawn_2.12:0.11.1:jar" level="project" />
     <orderEntry type="library" name="sbt: io.circe:circe-numbers_2.12:0.11.1:jar" level="project" />
     <orderEntry type="library" name="sbt: io.circe:circe-parser_2.12:0.11.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: log4j:log4j:1.2.17:jar" level="project" />
     <orderEntry type="library" name="sbt: org.flywaydb:flyway-core:5.2.4:jar" level="project" />
     <orderEntry type="library" name="sbt: org.postgresql:postgresql:9.4-1206-jdbc42:jar" level="project" />
     <orderEntry type="library" name="sbt: org.reactivestreams:reactive-streams:1.0.2:jar" level="project" />
@@ -46,7 +44,6 @@
     <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.12.7:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang.modules:scala-collection-compat_2.12:2.0.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.25:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.slf4j:slf4j-log4j12:1.7.25:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-core_2.12:1.5.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-kernel_2.12:1.5.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-macros_2.12:1.5.0:jar" level="project" />

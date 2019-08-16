@@ -4,7 +4,7 @@
 		module="service_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190808125546"
+		publication="20190815155436"
 	>
 		<description>
 		service
@@ -33,6 +33,5 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.7" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="slick" name="slick_2.12" rev="0.1.0-SNAPSHOT" conf="compile->default(compile)"/>
-		<dependency org="domain" name="domain_2.12" rev="0.1.0-SNAPSHOT" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
