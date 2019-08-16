@@ -7,30 +7,18 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190808125600"/>
+		date="20190815155832"/>
 	<dependencies>
 		<module organisation="slick" name="slick_2.12">
-			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20190808125545" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="27">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20190815155820" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="26">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="com.github.pureconfig" name="pureconfig_2.12">
-			<revision name="0.10.1" status="release" pubdate="20181201022006" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/pureconfig/pureconfig" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="40">
-				<license name="Mozilla Public License, version 2.0" url="https://www.mozilla.org/MPL/2.0/"/>
-				<metadata-artifact status="no" details="" size="3043" time="0" location="C:\Users\javas\.ivy2\cache\com.github.pureconfig\pureconfig_2.12\ivy-0.10.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/pureconfig/pureconfig_2.12/0.10.1/pureconfig_2.12-0.10.1.pom"/>
-				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="0.10.1" rev-constraint-default="0.10.1" rev-constraint-dynamic="0.10.1" callerrev="0.1.0-SNAPSHOT"/>
-				<artifacts>
-					<artifact name="pureconfig_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="249" time="0" location="C:\Users\javas\.ivy2\cache\com.github.pureconfig\pureconfig_2.12\srcs\pureconfig_2.12-0.10.1-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/pureconfig/pureconfig_2.12/0.10.1/pureconfig_2.12-0.10.1-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="io.circe" name="circe-parser_2.12">
-			<revision name="0.11.1" status="release" pubdate="20190112171202" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="33">
+			<revision name="0.11.1" status="release" pubdate="20190112171202" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="32">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3119" time="0" location="C:\Users\javas\.ivy2\cache\io.circe\circe-parser_2.12\ivy-0.11.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.11.1/circe-parser_2.12-0.11.1.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="0.11.1" rev-constraint-default="0.11.1" rev-constraint-dynamic="0.11.1" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="https://circe.github.io/circe/api/"/>
@@ -41,46 +29,34 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.slf4j" name="slf4j-log4j12">
-			<revision name="1.7.25" status="release" pubdate="20170316193700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="38">
-				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="no" details="" size="5541" time="0" location="C:\Users\javas\.ivy2\cache\org.slf4j\slf4j-log4j12\ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.pom"/>
-				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1.0-SNAPSHOT"/>
-				<artifacts>
-					<artifact name="slf4j-log4j12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12511" time="0" location="C:\Users\javas\.ivy2\cache\org.slf4j\slf4j-log4j12\srcs\slf4j-log4j12-1.7.25-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="domain" name="domain_2.12">
-			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20190808125546" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="24">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20190815155820" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="23">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
+		<module organisation="com.github.pureconfig" name="pureconfig_2.12">
+			<revision name="0.10.1" status="release" pubdate="20181201022006" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/pureconfig/pureconfig" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="38">
+				<license name="Mozilla Public License, version 2.0" url="https://www.mozilla.org/MPL/2.0/"/>
+				<metadata-artifact status="no" details="" size="3043" time="0" location="C:\Users\javas\.ivy2\cache\com.github.pureconfig\pureconfig_2.12\ivy-0.10.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/pureconfig/pureconfig_2.12/0.10.1/pureconfig_2.12-0.10.1.pom"/>
+				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="0.10.1" rev-constraint-default="0.10.1" rev-constraint-dynamic="0.10.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="pureconfig_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="249" time="0" location="C:\Users\javas\.ivy2\cache\com.github.pureconfig\pureconfig_2.12\srcs\pureconfig_2.12-0.10.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/pureconfig/pureconfig_2.12/0.10.1/pureconfig_2.12-0.10.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.flywaydb" name="flyway-core">
-			<revision name="5.2.4" status="release" pubdate="20181204200152" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+			<revision name="5.2.4" status="release" pubdate="20181204200152" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
 				<license name="Apache License, Version 2.0" url="https://flywaydb.org/licenses/flyway-community"/>
 				<metadata-artifact status="no" details="" size="10103" time="0" location="C:\Users\javas\.ivy2\cache\org.flywaydb\flyway-core\ivy-5.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/flywaydb/flyway-core/5.2.4/flyway-core-5.2.4.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="5.2.4" rev-constraint-default="5.2.4" rev-constraint-dynamic="5.2.4" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="flyway-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="457243" time="0" location="C:\Users\javas\.ivy2\cache\org.flywaydb\flyway-core\srcs\flyway-core-5.2.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/flywaydb/flyway-core/5.2.4/flyway-core-5.2.4-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="log4j" name="log4j">
-			<revision name="1.2.17" status="release" pubdate="20120526134339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
-				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3708" time="0" location="C:\Users\javas\.ivy2\cache\log4j\log4j\ivy-1.2.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
-				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="0.1.0-SNAPSHOT"/>
-				<artifacts>
-					<artifact name="log4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="481200" time="0" location="C:\Users\javas\.ivy2\cache\log4j\log4j\srcs\log4j-1.2.17-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -115,19 +91,19 @@
 				<metadata-artifact status="no" details="" size="3478" time="0" location="C:\Users\javas\.ivy2\cache\org.scala-sbt\zinc-classpath_2.12\ivy-1.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.2.5/zinc-classpath_2.12-1.2.5.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.2.5" rev-constraint-default="1.2.5" rev-constraint-dynamic="1.2.5" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="zinc-classpath_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="14117" time="1304" location="C:\Users\javas\.ivy2\cache\org.scala-sbt\zinc-classpath_2.12\srcs\zinc-classpath_2.12-1.2.5-sources.jar">
+					<artifact name="zinc-classpath_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14117" time="0" location="C:\Users\javas\.ivy2\cache\org.scala-sbt\zinc-classpath_2.12\srcs\zinc-classpath_2.12-1.2.5-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.2.5/zinc-classpath_2.12-1.2.5-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="compiler-interface">
-			<revision name="1.2.5" status="release" pubdate="20181130100848" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/zinc" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="34">
+			<revision name="1.2.5" status="release" pubdate="20181130100848" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/zinc" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="33">
 				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
 				<metadata-artifact status="no" details="" size="2688" time="0" location="C:\Users\javas\.ivy2\cache\org.scala-sbt\compiler-interface\ivy-1.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.2.5/compiler-interface-1.2.5.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.2.5" rev-constraint-default="1.2.5" rev-constraint-dynamic="1.2.5" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="compiler-interface" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="35776" time="783" location="C:\Users\javas\.ivy2\cache\org.scala-sbt\compiler-interface\srcs\compiler-interface-1.2.5-sources.jar">
+					<artifact name="compiler-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="35776" time="0" location="C:\Users\javas\.ivy2\cache\org.scala-sbt\compiler-interface\srcs\compiler-interface-1.2.5-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.2.5/compiler-interface-1.2.5-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -139,20 +115,20 @@
 				<metadata-artifact status="no" details="" size="3481" time="0" location="C:\Users\javas\.ivy2\cache\org.scala-sbt\io_2.12\ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.0/io_2.12-1.2.0.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="io_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="45121" time="1470" location="C:\Users\javas\.ivy2\cache\org.scala-sbt\io_2.12\srcs\io_2.12-1.2.0-sources.jar">
+					<artifact name="io_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="45121" time="0" location="C:\Users\javas\.ivy2\cache\org.scala-sbt\io_2.12\srcs\io_2.12-1.2.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.0/io_2.12-1.2.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="net.java.dev.jna" name="jna-platform">
-			<revision name="4.5.0" status="release" pubdate="20170913232959" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/java-native-access/jna" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+			<revision name="4.5.0" status="release" pubdate="20170913232959" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/java-native-access/jna" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
 				<license name="LGPL, version 2.1" url="http://www.gnu.org/licenses/licenses.html"/>
 				<license name="Apache License v2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2666" time="0" location="C:\Users\javas\.ivy2\cache\net.java.dev.jna\jna-platform\ivy-4.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.5.0/jna-platform-4.5.0.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="4.5.0" rev-constraint-default="4.5.0" rev-constraint-dynamic="4.5.0" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jna-platform" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="899373" time="996" location="C:\Users\javas\.ivy2\cache\net.java.dev.jna\jna-platform\srcs\jna-platform-4.5.0-sources.jar">
+					<artifact name="jna-platform" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="899373" time="0" location="C:\Users\javas\.ivy2\cache\net.java.dev.jna\jna-platform\srcs\jna-platform-4.5.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.5.0/jna-platform-4.5.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -164,7 +140,7 @@
 				<metadata-artifact status="no" details="" size="2938" time="0" location="C:\Users\javas\.ivy2\cache\com.swoval\apple-file-events\ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/swoval/apple-file-events/1.3.2/apple-file-events-1.3.2.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="apple-file-events" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5163" time="1192" location="C:\Users\javas\.ivy2\cache\com.swoval\apple-file-events\srcs\apple-file-events-1.3.2-sources.jar">
+					<artifact name="apple-file-events" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5163" time="0" location="C:\Users\javas\.ivy2\cache\com.swoval\apple-file-events\srcs\apple-file-events-1.3.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/swoval/apple-file-events/1.3.2/apple-file-events-1.3.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -183,7 +159,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.slick" name="slick_2.12">
-			<revision name="3.3.1" status="release" pubdate="20190528214755" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://slick.typesafe.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="22">
+			<revision name="3.3.1" status="release" pubdate="20190528214755" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://slick.typesafe.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="21">
 				<license name="Two-clause BSD-style license" url="http://github.com/slick/slick/blob/master/LICENSE.txt"/>
 				<metadata-artifact status="no" details="" size="3336" time="0" location="C:\Users\javas\.ivy2\cache\com.typesafe.slick\slick_2.12\ivy-3.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.3.1/slick_2.12-3.3.1.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="0.1.0-SNAPSHOT"/>
@@ -213,7 +189,7 @@
 				<metadata-artifact status="no" details="" size="2471" time="0" location="C:\Users\javas\.ivy2\cache\net.java.dev.jna\jna\ivy-4.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.0/jna-4.5.0.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="4.5.0" rev-constraint-default="4.5.0" rev-constraint-dynamic="4.5.0" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jna" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="146994" time="523" location="C:\Users\javas\.ivy2\cache\net.java.dev.jna\jna\srcs\jna-4.5.0-sources.jar">
+					<artifact name="jna" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="146994" time="0" location="C:\Users\javas\.ivy2\cache\net.java.dev.jna\jna\srcs\jna-4.5.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.0/jna-4.5.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -225,7 +201,7 @@
 				<metadata-artifact status="no" details="" size="2502" time="0" location="C:\Users\javas\.ivy2\cache\org.scala-sbt\util-interface\ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.2/util-interface-1.2.2.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="util-interface" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2088" time="1166" location="C:\Users\javas\.ivy2\cache\org.scala-sbt\util-interface\srcs\util-interface-1.2.2-sources.jar">
+					<artifact name="util-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2088" time="0" location="C:\Users\javas\.ivy2\cache\org.scala-sbt\util-interface\srcs\util-interface-1.2.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.2/util-interface-1.2.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -256,7 +232,7 @@
 			</revision>
 		</module>
 		<module organisation="org.typelevel" name="macro-compat_2.12">
-			<revision name="1.1.1" status="release" pubdate="20161102114258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+			<revision name="1.1.1" status="release" pubdate="20161102114258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2999" time="0" location="C:\Users\javas\.ivy2\cache\org.typelevel\macro-compat_2.12\ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1.0-SNAPSHOT"/>
@@ -280,7 +256,7 @@
 			</revision>
 		</module>
 		<module organisation="org.slf4j" name="slf4j-api">
-			<revision name="1.7.25" status="release" pubdate="20170316193632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="21">
+			<revision name="1.7.25" status="release" pubdate="20170316193632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="20">
 				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
 				<metadata-artifact status="no" details="" size="5431" time="0" location="C:\Users\javas\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1.0-SNAPSHOT"/>
@@ -316,7 +292,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe" name="config">
-			<revision name="1.3.3" status="release" pubdate="20180221170821" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+			<revision name="1.3.3" status="release" pubdate="20180221170821" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2909" time="0" location="C:\Users\javas\.ivy2\cache\com.typesafe\config\ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1.0-SNAPSHOT"/>
@@ -328,7 +304,7 @@
 			</revision>
 		</module>
 		<module organisation="com.github.pureconfig" name="pureconfig-macros_2.12">
-			<revision name="0.10.1" status="release" pubdate="20181201022157" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/pureconfig/pureconfig" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+			<revision name="0.10.1" status="release" pubdate="20181201022157" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/pureconfig/pureconfig" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
 				<license name="Mozilla Public License, version 2.0" url="https://www.mozilla.org/MPL/2.0/"/>
 				<metadata-artifact status="no" details="" size="3042" time="0" location="C:\Users\javas\.ivy2\cache\com.github.pureconfig\pureconfig-macros_2.12\ivy-0.10.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/pureconfig/pureconfig-macros_2.12/0.10.1/pureconfig-macros_2.12-0.10.1.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="0.10.1" rev-constraint-default="0.10.1" rev-constraint-dynamic="0.10.1" callerrev="0.1.0-SNAPSHOT"/>
@@ -364,7 +340,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-reflect">
-			<revision name="2.12.7" status="release" pubdate="20180927113203" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+			<revision name="2.12.7" status="release" pubdate="20180927113203" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
 				<metadata-artifact status="no" details="" size="2670" time="0" location="C:\Users\javas\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.7/scala-reflect-2.12.7.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/"/>
@@ -400,7 +376,7 @@
 			</revision>
 		</module>
 		<module organisation="io.circe" name="circe-core_2.12">
-			<revision name="0.11.1" status="release" pubdate="20190112171054" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="25">
+			<revision name="0.11.1" status="release" pubdate="20190112171054" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="24">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3119" time="0" location="C:\Users\javas\.ivy2\cache\io.circe\circe-core_2.12\ivy-0.11.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.11.1/circe-core_2.12-0.11.1.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="0.11.1" rev-constraint-default="0.11.1" rev-constraint-dynamic="0.11.1" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="https://circe.github.io/circe/api/"/>
@@ -424,7 +400,7 @@
 			</revision>
 		</module>
 		<module organisation="org.typelevel" name="cats-kernel_2.12">
-			<revision name="1.5.0" status="release" pubdate="20181201040839" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+			<revision name="1.5.0" status="release" pubdate="20181201040839" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
 				<metadata-artifact status="no" details="" size="2939" time="0" location="C:\Users\javas\.ivy2\cache\org.typelevel\cats-kernel_2.12\ivy-1.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.5.0/cats-kernel_2.12-1.5.0.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.5.0" rev-constraint-default="1.5.0" rev-constraint-dynamic="1.5.0" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="http://typelevel.org/cats/api/"/>
@@ -436,7 +412,7 @@
 			</revision>
 		</module>
 		<module organisation="org.typelevel" name="cats-macros_2.12">
-			<revision name="1.5.0" status="release" pubdate="20181201040754" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+			<revision name="1.5.0" status="release" pubdate="20181201040754" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
 				<metadata-artifact status="no" details="" size="2959" time="0" location="C:\Users\javas\.ivy2\cache\org.typelevel\cats-macros_2.12\ivy-1.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.5.0/cats-macros_2.12-1.5.0.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.5.0" rev-constraint-default="1.5.0" rev-constraint-dynamic="1.5.0" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="http://typelevel.org/cats/api/"/>
@@ -448,7 +424,7 @@
 			</revision>
 		</module>
 		<module organisation="org.typelevel" name="machinist_2.12">
-			<revision name="0.6.6" status="release" pubdate="20181026220138" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typelevel/machinist" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+			<revision name="0.6.6" status="release" pubdate="20181026220138" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typelevel/machinist" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
 				<metadata-artifact status="no" details="" size="2819" time="0" location="C:\Users\javas\.ivy2\cache\org.typelevel\machinist_2.12\ivy-0.6.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.6/machinist_2.12-0.6.6.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="0.6.6" rev-constraint-default="0.6.6" rev-constraint-dynamic="0.6.6" callerrev="0.1.0-SNAPSHOT"/>
@@ -460,7 +436,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-library">
-			<revision name="2.12.7" status="release" pubdate="20180927113542" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="36">
+			<revision name="2.12.7" status="release" pubdate="20180927113542" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="35">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
 				<metadata-artifact status="no" details="" size="2501" time="0" location="C:\Users\javas\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/"/>
@@ -472,7 +448,7 @@
 			</revision>
 		</module>
 		<module organisation="io.circe" name="circe-numbers_2.12">
-			<revision name="0.11.1" status="release" pubdate="20190112170830" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+			<revision name="0.11.1" status="release" pubdate="20190112170830" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2834" time="0" location="C:\Users\javas\.ivy2\cache\io.circe\circe-numbers_2.12\ivy-0.11.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.11.1/circe-numbers_2.12-0.11.1.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="0.11.1" rev-constraint-default="0.11.1" rev-constraint-dynamic="0.11.1" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="https://circe.github.io/circe/api/"/>
@@ -489,7 +465,7 @@
 				<metadata-artifact status="no" details="" size="2534" time="0" location="C:\Users\javas\.ivy2\cache\org.scala-sbt\launcher-interface\ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom"/>
 				<caller organisation="service" name="service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="launcher-interface" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="10612" time="587" location="C:\Users\javas\.ivy2\cache\org.scala-sbt\launcher-interface\srcs\launcher-interface-1.0.0-sources.jar">
+					<artifact name="launcher-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10612" time="0" location="C:\Users\javas\.ivy2\cache\org.scala-sbt\launcher-interface\srcs\launcher-interface-1.0.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0-sources.jar"/>
 					</artifact>
 				</artifacts>

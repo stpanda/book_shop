@@ -21,7 +21,6 @@ object Dependencies {
   val hikari = "com.typesafe.slick" %% "slick-hikaricp" % slickVersion exclude("com.zaxxer", "HikariCP-java6")
   //slf4j
   val slf4jApi = "org.slf4j" % "slf4j-api" % slf4jVersion
-  val slf4jLog = "org.slf4j" % "slf4j-log4j12" % slf4jVersion
 }
 
 object Version {
