@@ -1,13 +1,13 @@
 package service
 
-import com.anderesnlab.education.repository.{BookRepository, OrderRepository}
+import com.anderesnlab.education.repository.OrderRepository
 import com.andersenlab.education.model.Order
 
 import scala.concurrent.Future
 
 class OrderService(repository: OrderRepository) {
 
-  def all: Future[Seq[Order]] = repository.all
+  def all: Future[Seq[Order]] = repository.all()
 
   def deleteById(orderId: Long): Future[Int] = repository.drop(orderId)
 
