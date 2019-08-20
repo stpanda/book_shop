@@ -2,18 +2,148 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e3aca05-6bd1-4e9c-93de-f3081f7c82d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/boot/src/main/resources/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/education-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/education-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/cleanup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/cleanup.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/src/main/scala/com/andersenlab/education/WebServer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/main/scala/com/andersenlab/education/WebServer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/project/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/Services.scala" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/Services.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/domain/domain$sources/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/domain/domain$sources/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/domain/domain$sources/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/domain/domain$sources/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/domain/domain_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/domain/domain_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/domain/domain_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/domain/domain_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/scala-2.12/resolution-cache/reports/domain-domain_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/BookRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/BookRoutes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/OrderRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/OrderRoutes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/PersonRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/PersonRoutes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/facade/facade$sources/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/facade/facade$sources/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/facade/facade$sources/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/facade/facade$sources/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/facade/facade_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/facade/facade_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/facade/facade_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/facade/facade_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/scala-2.12/resolution-cache/reports/facade-facade_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/facade/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/BookService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/BookService.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/OrderService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/OrderService.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/PersonService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/PersonService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick/resources/application.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick/src/main/scala/com/anderesnlab/education/repository/BookRepository.scala" beforeDir="false" afterPath="$PROJECT_DIR$/slick/src/main/scala/com/anderesnlab/education/repository/BookRepository.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick/src/main/scala/com/anderesnlab/education/repository/OrderRepository.scala" beforeDir="false" afterPath="$PROJECT_DIR$/slick/src/main/scala/com/anderesnlab/education/repository/OrderRepository.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick/src/main/scala/com/anderesnlab/education/repository/PersonRepository.scala" beforeDir="false" afterPath="$PROJECT_DIR$/slick/src/main/scala/com/anderesnlab/education/repository/PersonRepository.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/reports/service-service_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/service/service$sources/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/service/service$sources/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/service/service$sources/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/service/service$sources/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/service/service_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/service/service_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/service/service_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/scala-2.12/resolution-cache/service/service_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/reports/slick-slick_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/slick/slick$sources/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/slick/slick$sources/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/slick/slick$sources/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/slick/slick$sources/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/slick/slick_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/slick/slick_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/slick/slick_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/scala-2.12/resolution-cache/slick/slick_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/slick/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/education/education$sources/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/education/education$sources/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/education/education$sources/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/education/education$sources/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/education-education$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
     </list>
     <list id="0d93b814-2e72-4c1a-b002-b4aaec667d64" name="cleanup" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,13 +186,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/boot/src/main/scala/com/andersenlab/education/WebServer.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/BookService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state>
+              <caret column="41" selection-start-column="41" selection-end-column="41" />
               <folding>
-                <element signature="e#35#84#0" expanded="true" />
+                <element signature="e#17#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/OrderService.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="41" selection-start-column="41" selection-end-column="41" />
+              <folding>
+                <element signature="e#17#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/PersonService.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding>
+                <element signature="e#17#77#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,8 +225,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/Services.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="255">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
                 <element signature="e#35#130#0" expanded="true" />
               </folding>
@@ -81,46 +235,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/application.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boot/src/main/resources/application.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boot/src/main/scala/com/andersenlab/education/Main.scala">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="17">
+              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/BookRoutes.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+              <folding>
+                <element signature="e#42#87#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
+        <entry file="file://$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/PersonRoutes.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+            <state relative-caret-position="204">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+              <folding>
+                <element signature="e#42#87#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/Dependencies.scala">
+        <entry file="file://$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/OrderRoutes.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+            <state relative-caret-position="190">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <folding>
+                <element signature="e#42#87#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,18 +291,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/Settings.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="102">
               <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/build.properties">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -153,6 +311,11 @@
         <option value="Scala Object" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>import com.andersenlab.education.service.PersonService</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -189,12 +352,10 @@
         <option value="$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/PersonController.scala" />
         <option value="$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/BookController.scala" />
         <option value="$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/OrderController.scala" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/ConfigLoader.scala" />
         <option value="$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/WebServer.scala" />
         <option value="$PROJECT_DIR$/service/resources/application.conf" />
         <option value="$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/DatabaseConfig.scala" />
-        <option value="$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/BookRoutes.scala" />
         <option value="$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/WebServer.scala" />
         <option value="$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/Main.scala" />
         <option value="$PROJECT_DIR$/slick/src/main/scala/com/anderesnlab/education/table/BookTable.scala" />
@@ -202,22 +363,30 @@
         <option value="$PROJECT_DIR$/project/Settings.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/boot/src/main/scala/com/andersenlab/education/Main.scala" />
-        <option value="$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/OrderRoutes.scala" />
-        <option value="$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/PersonRoutes.scala" />
         <option value="$PROJECT_DIR$/slick/src/main/scala/com/anderesnlab/education/table/OrderTable.scala" />
         <option value="$PROJECT_DIR$/slick/src/main/scala/com/anderesnlab/education/table/PersonTable.scala" />
-        <option value="$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/BookService.scala" />
         <option value="$PROJECT_DIR$/slick/src/main/scala/com/anderesnlab/education/repository/BookRepository.scala" />
         <option value="$PROJECT_DIR$/slick/src/main/scala/com/anderesnlab/education/repository/OrderRepository.scala" />
         <option value="$PROJECT_DIR$/slick/src/main/scala/com/anderesnlab/education/repository/PersonRepository.scala" />
-        <option value="$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/OrderService.scala" />
-        <option value="$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/PersonService.scala" />
         <option value="$PROJECT_DIR$/boot/resources/application.conf" />
         <option value="$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/Services.scala" />
         <option value="$PROJECT_DIR$/boot/src/main/scala/com/andersenlab/education/WebServer.scala" />
         <option value="$PROJECT_DIR$/project/application.conf" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/OrderRoutes.scala" />
+        <option value="$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/BookService.scala" />
+        <option value="$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/OrderService.scala" />
+        <option value="$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/PersonService.scala" />
+        <option value="$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/BookRoutes.scala" />
+        <option value="$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/PersonRoutes.scala" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1358" />
@@ -259,6 +428,14 @@
               <item name="boot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="education" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="education" type="b2602c69:ProjectViewProjectNode" />
@@ -392,6 +569,12 @@
               <item name="education" type="b2602c69:ProjectViewProjectNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="education" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -450,86 +633,6 @@
               <item name="andersenlab" type="462c0819:PsiDirectoryNode" />
               <item name="education" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="education" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="slick" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="education" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="slick" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="education" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="slick" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="education" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="slick" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="education" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="slick" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="education" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="slick" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="anderesnlab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="education" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="slick" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="anderesnlab" type="462c0819:PsiDirectoryNode" />
-              <item name="education" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="education" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="slick" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="anderesnlab" type="462c0819:PsiDirectoryNode" />
-              <item name="education" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="education" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="slick" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="anderesnlab" type="462c0819:PsiDirectoryNode" />
-              <item name="education" type="462c0819:PsiDirectoryNode" />
-              <item name="table" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -549,17 +652,17 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\learn\scala\boot" />
+      <recent name="C:\learn\scala\boot\src\main\resources" />
+      <recent name="C:\learn\scala\project" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\learn\scala\boot\src\main" />
       <recent name="C:\learn\scala\boot" />
       <recent name="C:\learn\scala\facade" />
       <recent name="C:\learn\scala\service" />
       <recent name="C:\learn\scala\service\src\main\scala\com\andersenlab\education" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\learn\scala\boot" />
-      <recent name="C:\learn\scala\boot\src\main\resources" />
-      <recent name="C:\learn\scala\project" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -646,6 +749,8 @@
       <list>
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -662,28 +767,28 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="facade [file:/C:/learn/scala/]" />
-                <option name="path" value="$PROJECT_DIR$/facade" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
                 <option name="name" value="service [file:/C:/learn/scala/]" />
                 <option name="path" value="$PROJECT_DIR$/service" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="education [file:/C:/learn/scala/]" />
-                <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="slick [file:/C:/learn/scala/]" />
                 <option name="path" value="$PROJECT_DIR$/slick" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="domain [file:/C:/learn/scala/]" />
-                <option name="path" value="$PROJECT_DIR$/domain" />
+                <option name="name" value="education [file:/C:/learn/scala/]" />
+                <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="boot [file:/C:/learn/scala/]" />
                 <option name="path" value="$PROJECT_DIR$/boot" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="domain [file:/C:/learn/scala/]" />
+                <option name="path" value="$PROJECT_DIR$/domain" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="facade [file:/C:/learn/scala/]" />
+                <option name="path" value="$PROJECT_DIR$/facade" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="education-build" />
@@ -761,7 +866,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79427000" />
+    <option name="totallyTimeSpent" value="80205000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -773,10 +878,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -785,7 +889,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -801,7 +905,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="sbt" order="5" weight="0.32995737" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -873,13 +977,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/io.circe/circe-generic_2.12/srcs/circe-generic_2.12-0.11.1-sources.jar!/io/circe/generic/semiauto.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/slick/com.bookshop.education/dao/repository/OrderRepository.scala" />
     <entry file="file://$PROJECT_DIR$/facade/com.bookshop.education/controller/OrderController.scala" />
     <entry file="file://$PROJECT_DIR$/facade/com.bookshop.education/controller/PersonController.scala" />
@@ -939,34 +1036,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/Main$.java" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/ConfigLoader.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/WebServer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/DatabaseConfig.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/ConfigLoader.scala" />
+    <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/WebServer.scala" />
+    <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/DatabaseConfig.scala" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.1.8-sources.jar!/akka/http/scaladsl/server/directives/PathDirectives.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -974,20 +1046,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/Main.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slick/resources/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/Main.scala" />
+    <entry file="file://$PROJECT_DIR$/slick/resources/application.conf" />
     <entry file="file://$PROJECT_DIR$/slick/src/main/scala/com/anderesnlab/education/repository/BookRepository.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -1006,36 +1066,6 @@
           <folding>
             <element signature="e#46#95#0" expanded="true" />
             <element signature="e#445#462#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/OrderService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding>
-            <element signature="e#17#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/PersonService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding>
-            <element signature="e#17#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/BookService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding>
-            <element signature="e#17#75#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1095,46 +1125,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/converter/JsonFormat.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#19#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/PersonRoutes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#42#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/OrderRoutes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="e#42#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/BookRoutes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding>
-            <element signature="e#42#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe/config/srcs/config-1.3.3-sources.jar!/com/typesafe/config/ConfigFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -1152,29 +1142,20 @@
     <entry file="file://$PROJECT_DIR$/project/build.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/Dependencies.scala">
+    <entry file="file://$PROJECT_DIR$/boot/resources/application.conf" />
+    <entry file="file://$PROJECT_DIR$/service/resources/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/Settings.scala">
+    <entry file="file://$PROJECT_DIR$/boot/src/main/scala/com/andersenlab/education/WebServer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="85">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/Services.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="e#35#130#0" expanded="true" />
+            <element signature="e#35#84#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1186,13 +1167,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot/src/main/resources/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boot/src/main/scala/com/andersenlab/education/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1200,15 +1174,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot/resources/application.conf">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/converter/JsonFormat.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#19#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot/src/main/scala/com/andersenlab/education/WebServer.scala">
+    <entry file="file://$PROJECT_DIR$/project/Dependencies.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/Settings.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
-            <element signature="e#35#84#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/BookService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+          <folding>
+            <element signature="e#17#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/OrderService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+          <folding>
+            <element signature="e#17#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/OrderRoutes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding>
+            <element signature="e#42#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/PersonRoutes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <element signature="e#42#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/service/PersonService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#17#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/scala/com/andersenlab/education/Services.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="e#35#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facade/src/main/scala/com/andersenlab/education/routes/BookRoutes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="e#42#87#0" expanded="true" />
           </folding>
         </state>
       </provider>

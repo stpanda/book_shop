@@ -5,8 +5,8 @@ import akka.http.scaladsl.model.{ContentTypes, HttpEntity, StatusCodes}
 import akka.http.scaladsl.server.Directives.{as, complete, delete, entity, get, onComplete, path, pathPrefix, post, put}
 import akka.http.scaladsl.server.Route
 import com.andersenlab.education.model.Person
+import com.andersenlab.education.service.PersonService
 import converter.JsonFormat._
-import service.PersonService
 
 import scala.util.{Failure, Success}
 

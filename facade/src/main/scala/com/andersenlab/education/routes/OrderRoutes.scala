@@ -5,8 +5,8 @@ import akka.http.scaladsl.model.StatusCodes
 import akka.http.scaladsl.server.Directives.{as, complete, delete, entity, onComplete, path, pathPrefix, post, put}
 import akka.http.scaladsl.server.Route
 import com.andersenlab.education.model.Order
+import com.andersenlab.education.service.OrderService
 import converter.JsonFormat._
-import service.OrderService
 
 import scala.util.{Failure, Success}
 

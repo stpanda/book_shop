@@ -1,4 +1,4 @@
-package service
+package com.andersenlab.education.service
 
 import com.anderesnlab.education.repository.BookRepository
 import com.andersenlab.education.model.Book
