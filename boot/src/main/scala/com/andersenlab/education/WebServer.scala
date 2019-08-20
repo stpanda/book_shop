@@ -13,7 +13,9 @@ object WebServer extends HttpApp {
 
   override protected def routes: Route = ignoreTrailingSlash(
     concat(
-      bookRoutes.routes
+      bookRoutes.routes,
+      personRoutes.routes,
+      orderRoutes.routes
     )
   )
 }

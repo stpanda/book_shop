@@ -2,14 +2,12 @@ package service
 
 import com.anderesnlab.education.repository.BookRepository
 import com.andersenlab.education.model.Book
-import slick.jdbc.PostgresProfile.backend.Database
-import slick.jdbc.PostgresProfile.api._
 
 import scala.concurrent.Future
 
 class BookService(repository: BookRepository) {
 
-  def all: Future[Seq[Book]] = repository.all
+  def all: Future[Seq[Book]] = repository.all()
 
   def deleteById(id: Long): Future[Int] = repository.deleteById(id)
 

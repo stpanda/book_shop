@@ -7,7 +7,7 @@ import scala.concurrent.Future
 
 class PersonService(repository: PersonRepository) {
 
-  def all: Future[Seq[Person]] = repository.all
+  def all: Future[Seq[Person]] = repository.all()
 
   def deleteById(id: Long): Future[Int] = repository.deleteById(id)
 

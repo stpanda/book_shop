@@ -9,7 +9,7 @@ class Services {
 
   import scala.concurrent.ExecutionContext.Implicits.global
 
-  val configPath = "education.db"
+  val configPath = "education.default"
   val dbConfig: DatabaseConfig[JdbcProfile] = DatabaseConfig.forConfig(configPath)
 
   val bookRepo = new BookRepository(dbConfig)
