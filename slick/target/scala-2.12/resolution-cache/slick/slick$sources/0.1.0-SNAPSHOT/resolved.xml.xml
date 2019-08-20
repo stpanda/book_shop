@@ -4,7 +4,7 @@
 		module="slick$sources"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190815155828"
+		publication="20190820144216"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

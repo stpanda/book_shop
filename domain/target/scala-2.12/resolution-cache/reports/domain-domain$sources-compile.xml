@@ -7,7 +7,7 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190815155833"/>
+		date="20190820144214"/>
 	<dependencies>
 		<module organisation="com.github.pureconfig" name="pureconfig_2.12">
 			<revision name="0.10.1" status="release" pubdate="20181201022006" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/pureconfig/pureconfig" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">

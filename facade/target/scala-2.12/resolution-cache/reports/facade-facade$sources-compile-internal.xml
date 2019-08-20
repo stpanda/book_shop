@@ -7,7 +7,7 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190815155821"/>
+		date="20190820144214"/>
 	<dependencies>
 		<module organisation="com.typesafe.akka" name="akka-http_2.12">
 			<revision name="10.1.8" status="release" pubdate="20190321141518" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io" extra-info.apiURL="https://doc.akka.io/api/akka-http/10.1.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="43">
@@ -58,7 +58,7 @@
 			</revision>
 		</module>
 		<module organisation="service" name="service_2.12">
-			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20190815155820" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="29">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20190820144210" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="29">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="facade" name="facade$sources" conf="compile-internal, compile, provided, optional" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
@@ -66,7 +66,7 @@
 			</revision>
 		</module>
 		<module organisation="slick" name="slick_2.12">
-			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20190815155820" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="33">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20190820144210" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="33">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="facade" name="facade$sources" conf="compile-internal, compile, provided, optional" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
@@ -86,7 +86,7 @@
 			</revision>
 		</module>
 		<module organisation="domain" name="domain_2.12">
-			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20190815155820" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="27">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20190820144210" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="27">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="facade" name="facade$sources" conf="compile-internal, compile, provided, optional" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
