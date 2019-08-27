@@ -1,5 +1,9 @@
 package com.andersenlab.education
 
-object Main extends App{
-    WebServer.startServer("0.0.0.0", 9000)
+import org.slf4j.{Logger, LoggerFactory}
+
+object Main extends App {
+  def log : Logger = LoggerFactory.getLogger( Main.getClass )
+  log.info("Akka education server started")
+  WebServer.startServer("0.0.0.0", 8080)
 }

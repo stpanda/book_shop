@@ -1,4 +1,4 @@
-[error] C:\learn\scala\project\Settings.scala:6:52: not found: value slf4jLog
-[error]     Seq(postgres, slick, hikari, flyway, slf4jApi, slf4jLog, circeCore, circeGeneric, circeParser, pureConfig)
-[error]                                                    ^
+[error] C:\learn\scala\project\Settings.scala:7:57: not found: value slf4j
+[error]   val commonDependencies: Seq[ModuleID] = Seq(slf4jApi, slf4j, pureConfig, httpCors)
+[error]                                                         ^
 [error] one error found
