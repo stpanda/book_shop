@@ -21,6 +21,8 @@ object Dependencies {
   val hikari = "com.typesafe.slick" %% "slick-hikaricp" % slickVersion exclude("com.zaxxer", "HikariCP-java6")
   //slf4j
   val slf4jApi = "org.slf4j" % "slf4j-api" % slf4jVersion
+  val slf4j = "org.slf4j" % "slf4j-simple" % slf4jVersion
+  val httpCors = "ch.megard" %% "akka-http-cors" % Version.httpCors
 }
 
 object Version {
@@ -32,4 +34,5 @@ object Version {
   val akkaCirceVersion = "1.25.2"
   val flywayCoreVersion = "5.2.4"
   val pureConf = "0.10.1"
+  val httpCors = "0.4.1"
 }
